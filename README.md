@@ -8,12 +8,16 @@ usage: cyberDork.py [-h] [-d DORK] [-n NUM_RESULTS] [-o FILENAME] [-c [CHECK_RES
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -d DORK, --dork DORK  Enter your dork terms in quotes seperated by a space. Ex: "intext:@gmail.com filetype:log"
+  
   -n NUM_RESULTS, --num_results NUM_RESULTS
                         Enter the number of results to obtain. Default: 10. Google will cap results at a maximum of
                         100 per query.
+                        
   -o FILENAME, --output FILENAME
                         Output results to specified path/file
+                        
   -c [CHECK_RESULT], --check_result [CHECK_RESULT]
                         Check link result for HTTP 200 response code
 
