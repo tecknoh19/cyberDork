@@ -24,6 +24,6 @@ optional arguments:
 Usage Examples:
 
 python3 cyberDork.py -d "intitle:webcamXP inurl:8080" -n 20 -c <br>
-python3 cyberDork.py -d "intitle:index 0f / P intext:index of /" -n 20 -c
+python3 cyberDork.py -d "intitle:index 0f / P intext:index of /" -n 20 -c <br>
 python3 cyberDork.py -d "intext:allow filetype.txt" -n 20 -c
 
